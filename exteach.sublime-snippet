@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+Ext.each(${1:array}, function(item, index, all) {
+	${3}
+
+	/*
+	* You can return FALSE here to stop iteration
+	*/
+}, ${2:this});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>each</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.javascript</scope> -->
+</snippet>
